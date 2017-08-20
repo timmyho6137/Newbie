@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Newbie</string>
+    <array name="category">
+        <item>Personal</item>
+        <item>Sports</item>
+        <item>Technology</item>
+        <item>Self Development</item>
+        <item>Indoor</item>
+        <item>Outdoor</item>
+    </array>
+    <array name="classType">
+        <item>Lecture</item>
+        <item>Lab</item>
+    </array>
+    <array name="weekDay">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </array>
+    <array name="remindHours">
+        <item>Do not remind</item>
+        <item>30 mins earlier</item>
+        <item>1 hour earlier</item>
+        <item>2 hours earlier</item>
+        <item>12 hours earlier</item>
+        <item>24 hours earlier</item>
+    </array>
+</resources>

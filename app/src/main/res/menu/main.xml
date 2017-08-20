@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bitp3453.newbie.CalendarActivity">
+
+    <item android:id="@+id/action_today"
+        android:title="today"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"/>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/action_week_view"
+            android:title="week view"
+            android:orderInCategory="100" />
+        <item
+            android:id="@+id/action_three_day_view"
+            android:orderInCategory="101"
+            android:title="three day view" />
+        <item
+            android:id="@+id/action_day_view"
+            android:orderInCategory="102"
+            android:title="day view" />
+    </group>
+</menu>
